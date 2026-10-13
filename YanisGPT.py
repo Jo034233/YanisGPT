@@ -310,7 +310,7 @@ else:
             with st.chat_message(message["role"]): st.markdown(message["content"])
 
 # Input Chat
-if prompt := st.chat_input("Pose ta question à Syntax..."):
+if prompt := st.chat_input("Pose ta question à YanisGPT..."):
     if client is None:
         st.error("Clé Groq manquante dans les Secrets.")
         st.stop()
