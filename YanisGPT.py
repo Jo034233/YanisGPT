@@ -9,7 +9,7 @@ from streamlit_cookies_controller import CookieController
 # ==============================================================================
 # 1. CONFIGURATION DE LA PAGE & COOKIES
 # ==============================================================================
-st.set_page_config(page_title="Syntax IA", page_icon="⚡", layout="wide")
+st.set_page_config(page_title="YanisGPT", page_icon="⚡", layout="wide")
 
 cookies = CookieController()
 
@@ -208,7 +208,7 @@ else:
 
 ACTIVE_MODEL = "llama-3.1-8b-instant"
 SYSTEM_INSTRUCTION = (
-    "Tu t'appelles Syntax. Tu es une intelligence artificielle d'élite, hautement perfectionnée. "
+    "Tu t'appelles YanisGPT. Tu es une intelligence artificielle d'élite, hautement perfectionnée. "
     "CHAMPS DE COMPÉTENCES : Expert absolu en sciences, technologies, développement informatique et santé. "
     "POSTURE & TON : Adopte un ton professionnel, direct, moderne et légèrement complice. Sois pragmatique : pas de blabla inutile, pas de phrases d'introduction ou de conclusion clichées (ex: 'En tant qu'IA...', 'J'espère que cela t'aide'). Va droit au but.\n\n"
     "RÈGLES DE SÉMANTIQUE & STYLE :\n"
