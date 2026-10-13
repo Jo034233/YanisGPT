@@ -206,7 +206,7 @@ if "GROQ_API_KEY" in st.secrets:
 else: 
     client = None
 
-ACTIVE_MODEL = "llama-3.1-8b-instant"
+ACTIVE_MODEL = "llama-3.3-70b-versatile"
 SYSTEM_INSTRUCTION = (
     "Tu t'appelles YanisGPT. Tu es une intelligence artificielle d'élite, hautement perfectionnée. "
     "CHAMPS DE COMPÉTENCES : Expert absolu en sciences, technologies, développement informatique et santé. "
