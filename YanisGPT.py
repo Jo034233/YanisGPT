@@ -114,7 +114,7 @@ if not st.session_state.connected:
     """, unsafe_allow_html=True)
     
     st.markdown('<div class="login-box">', unsafe_allow_html=True)
-    st.title("🤖 Bienvenue sur Syntax")
+    st.title("Bienvenue sur YanisGPT")
     
     tab_login, tab_register = st.tabs(["🔒 Se connecter", "📝 Créer un compte"])
     
